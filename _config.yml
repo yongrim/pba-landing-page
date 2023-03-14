@@ -40,11 +40,11 @@ features                                  :
     fontawesome_icon_name                 : play-circle
     
   - title                                 : See who is going!
-    description                           : See who is going to the activities!
+    description                           : See who is going to the activities and let others know you are going!
     fontawesome_icon_name                 : users
 
   - title                                 : Live court info!
-    description                           : See live court information about court conditions & who might be there!
+    description                           : See live court information about court conditions & who might be there using the Court Radar feature!
     fontawesome_icon_name                 : magic
 
   - title                                 : # New Feature Title
