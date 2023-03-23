@@ -35,12 +35,12 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Find dropins, open plays, & games near you!
-    description                           : See the nearby pickleball activites that you can participate in!
+  - title                                 : Find nearby activities such as dropins, open plays, & games!
+    description                           : See the pickleball activites near you that you can participate in!
     fontawesome_icon_name                 : play-circle
     
-  - title                                 : See who is going!
-    description                           : See who is going to the activities and let others know you are going!
+  - title                                 : See who is going and find players to play with!
+    description                           : See who is going to the activities and be matched up with others to play with!
     fontawesome_icon_name                 : users
 
   - title                                 : Live court info!
