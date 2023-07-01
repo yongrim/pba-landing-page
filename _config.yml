@@ -35,17 +35,17 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Find nearby activities such as dropins, open plays, & games!
+  - title                                 : Live court info!
+    description                           : See live status about court usage, court conditions & who might be there using the Court Radar feature!
+    fontawesome_icon_name                 : magic
+
+  - title                                 : Find all nearby activities such as dropins, open plays, & games!
     description                           : See the pickleball activites near you that you can participate in!
     fontawesome_icon_name                 : play-circle
     
   - title                                 : See who is going and find players to play with!
     description                           : See who is going to the activities and be matched up with others to play with!
     fontawesome_icon_name                 : users
-
-  - title                                 : Live court info!
-    description                           : See live court information about court conditions & who might be there using the Court Radar feature!
-    fontawesome_icon_name                 : magic
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
