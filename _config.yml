@@ -36,7 +36,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Live court info!
-    description                           : See live status about court usage, court conditions & who might be there using the Court Radar feature!
+    description                           : See live status about court usage, court conditions & who might be there using the Live Court Status feature!
     fontawesome_icon_name                 : magic
 
   - title                                 : Find all nearby activities such as dropins, open plays, & games!
