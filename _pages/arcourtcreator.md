@@ -2,7 +2,7 @@
 layout: page
 title: FAANG
 include_in_header: false
-permalink: /arcourtcreator
+permalink: /arcourtcreator/index.html
 ---
 
 # Changelog
