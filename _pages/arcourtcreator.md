@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blank
 include_in_header: true
 permalink: /arcourtcreator/index.html
 ---
