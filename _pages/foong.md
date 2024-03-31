@@ -2,6 +2,7 @@
 layout: page
 title: FAANG
 include_in_header: false
+include_in_footer: false
 permalink: /faang
 ---
 
