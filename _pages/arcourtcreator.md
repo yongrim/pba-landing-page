@@ -1,14 +1,8 @@
 ---
-# layout: default
+layout: page
 include_in_header: false
 permalink: /arcourtcreator/index.html
 ---
-<!DOCTYPE html>
-<html lang="en-us">
-
-{% include head.html %}
-
-<body>
     <div class="imageWrapper">
             <div class="headerBackground">
                 <div class="container">
@@ -68,5 +62,3 @@ permalink: /arcourtcreator/index.html
                 </div>
             </div>
         </div>
-</body>
-</html>
