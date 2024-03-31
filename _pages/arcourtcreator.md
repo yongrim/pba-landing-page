@@ -52,7 +52,7 @@ permalink: /arcourtcreator/index.html
                         </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
-                                {{ site.app_description }}
+                            Fooong
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
