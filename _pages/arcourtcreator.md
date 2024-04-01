@@ -1,7 +1,8 @@
 ---
 layout: blank
 include_in_header: true
-permalink: /arcourtcreator/index.html
+# permalink: /arcourtcreator/index.html
+permalink: /arcourtcreator/
 ---
 
 <html lang="en-us">
