@@ -25,7 +25,7 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
 	<style>
 $body-color: {{ site.body_background_color }};
 
-$header-image: "{{ site.cover_image }}";
+$header-image: "../assets/arcourtcreator/491C12DB-1A25-4829-B2E8-90232F7C5DA8.png";
 $device-color: "assets/{{ site.device_color }}.png";
 
 $accent-color: {{ site.link_color }};
