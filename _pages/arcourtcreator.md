@@ -45,13 +45,13 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
 				</defs>
 			</svg>
 			{% if page.url != '/' %}
-				<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
+				<a href="../" target="_self"><img class="headerIcon" src="../assets/arcourtcreator/PBAR_icon_1024x1024.png"></a>
 			{% else %}
-				<img class="headerIcon" src="{{ site.app_icon | relative_url }}">
+				<img class="headerIcon" src="../assets/arcourtcreator/PBAR_icon_1024x1024.png">
 			{% endif %}
 			<div class="divider"></div>
 		</div>
-		<p class="headerName">{{ site.app_name }}</p>
+		<p class="headerName">AR Pickleball Court Creator</p>
 	</div>
 	<nav class="scroll">
 		<ul>
