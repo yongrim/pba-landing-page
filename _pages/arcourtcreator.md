@@ -142,7 +142,7 @@ $social-icons-background-color: {{ site.social_icons_background_color }};
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">	
-                            <a class="appStoreLink" href="{{site.appstore_link}}">
+                            <a class="appStoreLink" href="https://apps.apple.com/app/id6479298626">
 			    	<img class="appStore" src="../assets/appstore.png">
        			    </a>
                         </div>
