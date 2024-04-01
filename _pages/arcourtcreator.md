@@ -149,7 +149,7 @@ Looking to build a pickleball court in your home but don't know if it'll fit? Do
                 Check existing court sizes
             </h3>
             <p>
-                See the pickleball activites near you that you can participate in!
+                Playing at a new court and you're not sure if the court is regulation size? Use Pickleball Court Creator to superimpose the virtual court to see if the court is official regulation size.
             </p>
         </div>
     </div>
@@ -165,8 +165,7 @@ Looking to build a pickleball court in your home but don't know if it'll fit? Do
                 Draw temporary courts in your driveway
             </h3>
             <p>
-                See who is going to the activities and be matched up with others to play with!
-            </p>
+                Don't have a pickleball court nearby? Using the virtual pickleball court as a guide, draw one in your driveway using a chalk! Just bring your net and paddles 😊           </p>
         </div>
     </div>
 </div>
