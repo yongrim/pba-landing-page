@@ -100,22 +100,18 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
-                                {{ site.app_name }}
+			        AR Pickleball Court Creator
                             </h1>
-                            <h2 class="appPrice">
-                                {{ site.app_price }}
-                            </h2>
                         </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
-                                {{ site.app_description }}
+			    	To boldy go where no pickleball courts have gone before.
                             </p>
                         </div>
-                        <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
-                            {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                        <div class="downloadButtonsContainer">	
+                            <a class="appStoreLink" href="{{site.appstore_link}}">
+			    	<img class="appStore" src="assets/appstore.png">
+       			    </a>
                         </div>
                     </div>
 
