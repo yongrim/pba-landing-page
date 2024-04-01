@@ -146,7 +146,7 @@ Looking to build a pickleball court in your home but don't know if it'll fit? Do
         </div>
         <div class="featureText">
             <h3>
-                Find all nearby activities such as dropins, open plays, &amp; games!
+                Check existing court sizes
             </h3>
             <p>
                 See the pickleball activites near you that you can participate in!
@@ -162,7 +162,7 @@ Looking to build a pickleball court in your home but don't know if it'll fit? Do
         </div>
         <div class="featureText">
             <h3>
-                See who is going and find players to play with!
+                Draw temporary courts in your driveway
             </h3>
             <p>
                 See who is going to the activities and be matched up with others to play with!
