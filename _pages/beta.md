@@ -1,6 +1,6 @@
 ---
 layout: blank
-include_in_footer: true
+include_in_header: true
 ---
 
 <html lang="en-us">
