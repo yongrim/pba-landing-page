@@ -106,6 +106,7 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
                             <a class="appStoreLink" href="https://apps.apple.com/app/id6479298626">
 			    	<img class="appStore" src="../assets/appstore.png">
        			    </a>
+			    <img class="playStore" src="../assets/arcourtcreator/Coming-soon-Google-Play.png">
                         </div>
                     </div>
 
@@ -171,16 +172,6 @@ Looking to build a pickleball court in your home but don't know if it'll fit? Do
 	<p class="footerText">Made by How About Them Pickles, LLC in Dover, DE, USA</p>
 	
 	<div class="footerIcons">
-
-		
-
-		
-
-		
-
-		
-
-		
 			<a href="mailto:thempickles@wildbrains.com">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
@@ -191,20 +182,7 @@ Looking to build a pickleball court in your home but don't know if it'll fit? Do
 
 	</div>
 	<div class="footerLinks">
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
 				<a href="/arcourtcreator/privacypolicy/" target="_self">Privacy Policy</a>
-			
-		
-		
 	</div>
 </footer>
 
