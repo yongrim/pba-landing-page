@@ -93,10 +93,13 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
                             <h1 class="appName">
 			        AR Pickleball Court Creator
                             </h1>
-                        </div>
+			    <p class="appName">
+			    	To boldy go where no pickleball courts have gone before.
+                            </p>
+			    </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
-			    	To boldy go where no pickleball courts have gone before.
+				The world's first AR tool to create pickleball courts.
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">	
