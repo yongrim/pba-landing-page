@@ -82,9 +82,11 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
                             </video>
                         </div>  
                         
-                        <img class="iphoneScreen hidden" src="" alt="">
+			<img class="iphoneScreen" src="/assets/arcourtcreator/491C12DB-1A25-4829-B2E8-90232F7C5DA8.png" alt="">
 
+<!--
                         {% include screencontent.html %}
+-->
 
                     </div>
                     <div class="appInfo">
@@ -169,8 +171,76 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
     </div>
 </div>
 
-
+<!--
                     {% include footer.html %}
+-->
+
+<footer>
+	{% if site.your_name %}
+	<p class="footerText">Made by {% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
+	{% endif %}
+	<div class="footerIcons">
+
+		{% if site.facebook_username %}
+			<a href="https://facebook.com/{{ site.facebook_username }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+		{% if site.twitter_username %}
+			<a href="https://twitter.com/{{ site.twitter_username }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-twitter fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+		{% if site.instagram_username %}
+			<a href="https://instagram.com/{{ site.instagram_username }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+		{% if site.github_username %}
+			<a href="https://github.com/{{ site.github_username }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-github fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+		{% if site.email_address %}
+			<a href="mailto:{{ site.email_address }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fas fa-envelope fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+	</div>
+	<div class="footerLinks">
+		{% for page in site.pages %}
+			{% if page.include_in_footer == true %}
+				<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+			{% endif %}
+		{% endfor %}
+		{% if site.presskit_download_link %}
+			<a href="{{ site.presskit_download_link }}">Press Kit</a>
+		{% endif %}
+	</div>
+</footer>
+
+
+      
                     {% include appstoreimages.html %}
                 </div>
             </div>
