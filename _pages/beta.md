@@ -55,10 +55,8 @@ include_in_footer: true
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
-                            {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            <a class="playStoreLink" href="https://form.typeform.com/to/FapXWIa7"><img class="playStore" src="../assets/playstore.png"></a>
+                            <a class="appStoreLink" href="https://form.typeform.com/to/FapXWIa7"><img class="appStore" src="../assets/appstore.png"></a>
                         </div>
                     </div>
                     {% include features.html %}
