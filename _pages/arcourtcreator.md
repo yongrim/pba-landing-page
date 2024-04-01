@@ -113,7 +113,37 @@ permalink: /arcourtcreator/
                             <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
                         </div>
                     </div>
+
+      <!--
                     {% include features.html %}
+	-->
+<div class="features">
+
+    {% for feature in site.features %}
+
+    {% if feature.title %}
+    <div class="feature">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
+            </span>
+        </div>
+        <div class="featureText">
+            <h3>
+                {{ feature.title }}
+            </h3>
+            <p>
+                {{ feature.description }}
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
+		    
                     {% include footer.html %}
                     {% include appstoreimages.html %}
                 </div>
