@@ -55,14 +55,7 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
 	</div>
 	<nav class="scroll">
 		<ul>
-			{% for page in site.pages %}
-				{% if page.include_in_header == true %}
-				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
-				{% endif %}
-			{% endfor %}
-			{% if site.presskit_download_link %}
-				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
-			{% endif %}
+				<li><a href="/" target="_self">The Pickleball App</a></li>
 		</ul>
 	</nav>
 </header>
