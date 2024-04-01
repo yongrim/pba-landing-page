@@ -44,11 +44,7 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
 					</clipPath>
 				</defs>
 			</svg>
-			{% if page.url != '/' %}
-				<a href="../" target="_self"><img class="headerIcon" src="../assets/arcourtcreator/PBAR_icon_1024x1024.png"></a>
-			{% else %}
 				<img class="headerIcon" src="../assets/arcourtcreator/PBAR_icon_1024x1024.png">
-			{% endif %}
 			<div class="divider"></div>
 		</div>
 		<p class="headerName">AR Pickleball Court Creator</p>
