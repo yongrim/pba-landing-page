@@ -25,6 +25,15 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 </head>
 
+<body>
+    <div class="imageWrapper">
+            <div class="headerBackground">
+                <div class="container">
+			<!--
+                    {% include header.html %}
+		    -->
+
+
 <header>
 	<div class="logo">
 		<div class="appIconShadow">
@@ -58,11 +67,8 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
 	</nav>
 </header>
 
-<body>
-    <div class="imageWrapper">
-            <div class="headerBackground">
-                <div class="container">
-                    {% include header.html %}
+
+   
                     <div class="iphonePreview">
 
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 0 0" style="position: absolute;">
