@@ -1,12 +1,10 @@
 ---
 layout: blank
 include_in_header: true
-# permalink: /arcourtcreator/index.html
-permalink: /arcourtcreator/
+permalink: /arcourtcreator/ # /arcourtcreator/index.html
 ---
 
 <html lang="en-us">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -59,6 +57,7 @@ permalink: /arcourtcreator/
 		</ul>
 	</nav>
 </header>
+
 <body>
     <div class="imageWrapper">
             <div class="headerBackground">
