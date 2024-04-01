@@ -3,12 +3,6 @@ layout: blank
 include_in_footer: true
 ---
 
----
-layout: blank
-include_in_header: true
-permalink: /arcourtcreator/index.html
----
-
 <html lang="en-us">
 
 {% include head.html %}
@@ -57,7 +51,7 @@ permalink: /arcourtcreator/index.html
                         </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
-                                {{ site.app_description }}
+                               Sorry, beta sign-ups are now closed! The app is launching on 8/8/2024. If you'd like early access please contact hi@thepickleballapp.xyz.
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
