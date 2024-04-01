@@ -11,10 +11,10 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<base target="_blank">
 
-	<title class="pageTitle">{{ site.page_title }}</title>
-	<meta name="description" content="{{ site.app_description }}">
+	<title class="pageTitle">AR Pickleball Court Creator</title>
+	<meta name="description" content="Create pickleball courts anywhere.">
 
-	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
+	<link rel="shortcut icon" href="../assets/arcourtcreator/PBAR_icon_1024x1024.png">
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}
@@ -96,7 +96,7 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <img class="appIconLarge" src="{{ site.app_icon | relative_url }}">
+                            <img class="appIconLarge" src="../assets/arcourtcreator/PBAR_icon_1024x1024.png">
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
