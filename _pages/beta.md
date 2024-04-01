@@ -51,7 +51,10 @@ include_in_header: true
                         </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
-                               Sorry, beta sign-ups are now closed! The app is launching on 8/8/2024. If you'd like early access please contact hi@thepickleballapp.xyz.
+                               Sorry, beta sign-ups are now closed!
+                            </p>
+                            <p class ="appDescription">
+                               The app is launching on 8/8/2024. If you'd like early access please contact hi@thepickleballapp.xyz.
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
