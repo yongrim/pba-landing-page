@@ -23,10 +23,39 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<style>
-	body {background-color: powderblue;}
-	h1   {color: blue;}
-	p    {color: red;}
-	</style>
+$body-color: {{ site.body_background_color }};
+
+$header-image: "{{ site.cover_image }}";
+$device-color: "assets/{{ site.device_color }}.png";
+
+$accent-color: {{ site.link_color }};
+
+$header-title-color: {{ site.topbar_title_color }};
+$app-title-color: {{ site.app_title_color }};
+$app-price-color: {{ site.app_price_color }};
+$app-description-color: {{ site.app_description_color }};
+
+$feature-title-color: {{ site.feature_title_color }};
+$feature-text-color: {{ site.feature_text_color }};
+$footer-text-color: {{ site.footer_text_color }};
+
+$header_color: {{ site.topbar_color }};
+$header_transparency: {{ site.topbar_transparency }};
+
+$image-overlay-color: {{ site.cover_overlay_color }};
+$image-overlay-transparency: {{ site.cover_overlay_transparency }};
+
+$feature-icons-foreground-color: {{ site.feature_icons_foreground_color }};
+$feature-icons-background-color: {{ site.feature_icons_background_color }};
+
+$social-icons-foreground-color: {{ site.social_icons_foreground_color }};
+$social-icons-background-color: {{ site.social_icons_background_color }};
+
+@import 
+    "base",
+    "layout",
+    "github-markdown"
+    </style>
 </head>
 
 <body>
