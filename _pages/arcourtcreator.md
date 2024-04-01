@@ -130,11 +130,11 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
         </div>
         <div class="featureText">
             <h3>
-                Live court info!
+		Visualize your next pickleball court
             </h3>
             <p>
-                See live status about court usage, court conditions &amp; who might be there using the Live Court Status feature!
-            </p>
+Looking to build a pickleball court in your home but don't know if it'll fit? Do you want see what it'll look like? Use the Pickleball Court Creator to virtually place a pickleball court and effortlessly move it around!
+	    </p>
         </div>
     </div>
     <div class="feature">
