@@ -119,32 +119,57 @@ permalink: /arcourtcreator/ # /arcourtcreator/index.html
                     {% include features.html %}
 	-->
 <div class="features">
-
-    {% for feature in site.features %}
-
-    {% if feature.title %}
     <div class="feature">
         <div>
             <span class="fa-stack fa-1x">
                 <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
+                <i class="iconTop fas fa-magic fa-stack-1x"></i>
             </span>
         </div>
         <div class="featureText">
             <h3>
-                {{ feature.title }}
+                Live court info!
             </h3>
             <p>
-                {{ feature.description }}
+                See live status about court usage, court conditions &amp; who might be there using the Live Court Status feature!
             </p>
         </div>
     </div>
-    {% endif %}
-
-    {% endfor %}
-
+    <div class="feature">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                <i class="iconTop fas fa-play-circle fa-stack-1x"></i>
+            </span>
+        </div>
+        <div class="featureText">
+            <h3>
+                Find all nearby activities such as dropins, open plays, &amp; games!
+            </h3>
+            <p>
+                See the pickleball activites near you that you can participate in!
+            </p>
+        </div>
+    </div>
+    <div class="feature">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                <i class="iconTop fas fa-users fa-stack-1x"></i>
+            </span>
+        </div>
+        <div class="featureText">
+            <h3>
+                See who is going and find players to play with!
+            </h3>
+            <p>
+                See who is going to the activities and be matched up with others to play with!
+            </p>
+        </div>
+    </div>
 </div>
-		    
+
+
                     {% include footer.html %}
                     {% include appstoreimages.html %}
                 </div>
